@@ -1,13 +1,13 @@
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { Benefits } from './components/Benefits';
-import { Portfolio } from './components/Portfolio';
-import { Pricing } from './components/Pricing';
-import { About } from './components/About';
-import { Footer } from './components/Footer';
-import { OrderForm } from './components/OrderForm';
-import { Plan } from './types';
+import { Header } from './components/Header.tsx';
+import { Hero } from './components/Hero.tsx';
+import { Benefits } from './components/Benefits.tsx';
+import { Portfolio } from './components/Portfolio.tsx';
+import { Pricing } from './components/Pricing.tsx';
+import { About } from './components/About.tsx';
+import { Footer } from './components/Footer.tsx';
+import { OrderForm } from './components/OrderForm.tsx';
+import { Plan } from './types.ts';
 
 export default function App() {
   const [isOrderFormVisible, setOrderFormVisible] = useState(false);
